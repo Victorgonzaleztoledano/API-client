@@ -4,8 +4,10 @@ import com.APIclient.Controller.BillInput;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;
+import javax.persistence.Table;
 import java.time.Year;
 
+@Table(name = "bills")
 @Entity
 public class Bill {
     @Id

@@ -4,8 +4,10 @@ import com.APIclient.Controller.ClientInput;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;
+import javax.persistence.Table;
 import java.util.Date;
 
+@Table(name = "clients")
 @Entity
 public class Client {
     @Id
